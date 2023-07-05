@@ -1,0 +1,61 @@
+{
+  "id": "a33f1f41-4a11-45b7-999b-cbe5904e91da",
+  "parentId": "9648fd44-1f0a-4e55-8f8e-6d867fcfa05d",
+  "rootParentId": "f5d18210-67d5-456c-b2e6-7738630018f4",
+  "name": "Suffering_Patient_sym1",
+  "auto": true,
+  "contexts": [
+    "Q6",
+    "Suffering_Patient_Q6-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Suffering_Patient-custom.Suffering_Patient_symp_dur-custom.Suffering_Patient_Q2-custom.Suffering_Patient_Q3-custom.Suffering_Patient_Q4-custom.Suffering_Patient_Q5-custom.Suffering_Patient_Q6-custom",
+      "affectedContexts": [
+        {
+          "name": "A1",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Suffering_Patient_sym1-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "44c4e10f-d2c3-4a37-8389-ee959b054952",
+          "required": false,
+          "dataType": "@Confirmation",
+          "name": "Confirmation",
+          "value": "$Confirmation",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Do you have the following symptoms?\n(a.) Chest Pain worse on breathing in.\n(b.) Burning pain in chest/upper abdomen.\n(c.) Chest pain caused by pressing the chest.\n(d.) Chest pain worse on movement.\n(e.) None"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

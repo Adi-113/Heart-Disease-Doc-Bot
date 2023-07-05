@@ -1,0 +1,61 @@
+{
+  "id": "d9f58a27-cfb3-4b90-a6a4-db36433ef083",
+  "parentId": "ffb0c99b-3a65-49ce-b08a-f036b05b8a30",
+  "rootParentId": "84f5ac77-041f-4af2-8435-103adb2e6bda",
+  "name": "Suffering_Patient_sym_report_yes",
+  "auto": true,
+  "contexts": [
+    "report_ans",
+    "Suffering_Patient_sym_final-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Suffering_Patient_sym2.Suffering_Patient_sym2-custom.Suffering_Patient_sym3-custom.Suffering_Patient_sym_final-custom",
+      "affectedContexts": [
+        {
+          "name": "user_info",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Suffering_Patient_sym_report_yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "065e7fa3-ed03-44c4-b57d-4fba88b10e64",
+          "required": false,
+          "dataType": "@Confirmation",
+          "name": "Confirmation",
+          "value": "$Confirmation",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Ok, please tell your name, age and gender"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "f7da9167-028d-4d0f-b7be-7016e518e4db",
+    "data": [
+      {
+        "text": "Chest pain",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": false
+      },
+      {
+        "text": " while resting, Sudden ",
+        "userDefined": false
+      },
+      {
+        "text": "chest pain",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": false
+      },
+      {
+        "text": ", Shortness of Breadth, Fast or Shallow breathing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "284ede76-1d38-4e8a-9736-34e65b0aec4c",
+    "data": [
+      {
+        "text": "Fast or ",
+        "userDefined": false
+      },
+      {
+        "text": "Shallow breathing",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4a33ad67-2975-4f06-831f-42231954abf5",
+    "data": [
+      {
+        "text": "Shortness",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": true
+      },
+      {
+        "text": " of Breadth",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "60715733-76da-4993-9727-aea380523a15",
+    "data": [
+      {
+        "text": "Sudden ",
+        "userDefined": false
+      },
+      {
+        "text": "chest pain",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b6ea328e-79b6-4a79-be44-d65aa1a52914",
+    "data": [
+      {
+        "text": "Chest pain",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": false
+      },
+      {
+        "text": " while resting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8ccd97fa-2955-4325-8ee6-d9286a3011aa",
+    "data": [
+      {
+        "text": "None",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

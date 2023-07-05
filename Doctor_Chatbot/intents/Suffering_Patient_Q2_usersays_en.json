@@ -1,0 +1,48 @@
+[
+  {
+    "id": "aebc4331-a04c-4ac2-8966-fced9f4a0656",
+    "data": [
+      {
+        "text": "not ",
+        "userDefined": false
+      },
+      {
+        "text": "sure",
+        "alias": "Confirmation",
+        "meta": "@Confirmation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "733ef782-4c07-4392-b0e0-121275d94b9c",
+    "data": [
+      {
+        "text": "no",
+        "alias": "Confirmation",
+        "meta": "@Confirmation",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "17cf318d-c1a0-427c-9696-a45b8a03646b",
+    "data": [
+      {
+        "text": "yes",
+        "alias": "Confirmation",
+        "meta": "@Confirmation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

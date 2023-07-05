@@ -1,0 +1,110 @@
+[
+  {
+    "value": "Astma",
+    "synonyms": [
+      "Astma"
+    ]
+  },
+  {
+    "value": "Chronic Obstructive lung disease",
+    "synonyms": [
+      "Chronic Obstructive lung disease"
+    ]
+  },
+  {
+    "value": "Heart Disease",
+    "synonyms": [
+      "Heart Disease"
+    ]
+  },
+  {
+    "value": "Diabetes",
+    "synonyms": [
+      "Diabetes"
+    ]
+  },
+  {
+    "value": "High Blood Pressure",
+    "synonyms": [
+      "High Blood Pressure"
+    ]
+  },
+  {
+    "value": "brain stroke",
+    "synonyms": [
+      "brain stroke"
+    ]
+  },
+  {
+    "value": "Overweight/Obese",
+    "synonyms": [
+      "Overweight/Obese"
+    ]
+  },
+  {
+    "value": "smoke/smoked",
+    "synonyms": [
+      "smoke/smoked"
+    ]
+  },
+  {
+    "value": "Kidney Disease",
+    "synonyms": [
+      "Kidney Disease"
+    ]
+  },
+  {
+    "value": "Chest Pain",
+    "synonyms": [
+      "Chest Pain"
+    ]
+  },
+  {
+    "value": "Burning pain",
+    "synonyms": [
+      "Burning pain"
+    ]
+  },
+  {
+    "value": "Joint/Abdominal pain",
+    "synonyms": [
+      "Joint/Abdominal pain"
+    ]
+  },
+  {
+    "value": "Anxiety",
+    "synonyms": [
+      "Anxiety"
+    ]
+  },
+  {
+    "value": "sleeping",
+    "synonyms": [
+      "sleeping"
+    ]
+  },
+  {
+    "value": "sleep",
+    "synonyms": [
+      "sleep"
+    ]
+  },
+  {
+    "value": "low blood pressure",
+    "synonyms": [
+      "low blood pressure"
+    ]
+  },
+  {
+    "value": "breathing problems",
+    "synonyms": [
+      "breathing"
+    ]
+  },
+  {
+    "value": "breathlessness",
+    "synonyms": [
+      "breathlessness"
+    ]
+  }
+]

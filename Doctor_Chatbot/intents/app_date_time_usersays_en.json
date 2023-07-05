@@ -1,0 +1,110 @@
+[
+  {
+    "id": "3843e0d8-18eb-4075-9b4f-d1e2e9cacfc1",
+    "data": [
+      {
+        "text": "please book appointment with ",
+        "userDefined": false
+      },
+      {
+        "text": "Dr. Mahendra Kare",
+        "alias": "person",
+        "meta": "@sys.person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6283b71f-9715-41d0-a2cc-6949a400f610",
+    "data": [
+      {
+        "text": "Dr. ",
+        "userDefined": false
+      },
+      {
+        "text": "Mahendra Kare",
+        "alias": "person",
+        "meta": "@sys.person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8b523f34-669a-45a7-b258-218e8e6c1119",
+    "data": [
+      {
+        "text": "Dr. ",
+        "userDefined": false
+      },
+      {
+        "text": "Milind Desai",
+        "alias": "person",
+        "meta": "@sys.person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "20aa7395-c25e-4c4b-af61-a8cc64b5f0b8",
+    "data": [
+      {
+        "text": "Dr. ",
+        "userDefined": false
+      },
+      {
+        "text": "Sudhir M. Shet",
+        "alias": "person",
+        "meta": "@sys.person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8eda354f-04c6-4f47-b34b-8c106290c721",
+    "data": [
+      {
+        "text": "Dr. ",
+        "userDefined": false
+      },
+      {
+        "text": "Francisco Colaco",
+        "alias": "person",
+        "meta": "@sys.person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b29278a1-ab89-4a54-b042-c05162ec3704",
+    "data": [
+      {
+        "text": "Dr. ",
+        "userDefined": false
+      },
+      {
+        "text": "Sidhesh Talauliker",
+        "alias": "person",
+        "meta": "@sys.person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

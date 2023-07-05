@@ -1,0 +1,61 @@
+{
+  "id": "760a9587-2c41-47aa-8ef7-ecd18140429d",
+  "parentId": "7e558b8b-d71e-46b1-8513-78ca0a7a92e2",
+  "rootParentId": "f5d18210-67d5-456c-b2e6-7738630018f4",
+  "name": "Suffering_Patient_Q2",
+  "auto": true,
+  "contexts": [
+    "Q1",
+    "Suffering_Patient_symp_dur-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Suffering_Patient-custom.Suffering_Patient_symp_dur-custom",
+      "affectedContexts": [
+        {
+          "name": "Q2",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "Suffering_Patient_Q2-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2d500f49-b2cf-4c10-a4bd-5d866d4fe725",
+          "required": false,
+          "dataType": "@Confirmation",
+          "name": "Confirmation",
+          "value": "$Confirmation",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Are you Suffering from Diabetes?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "89847845-0384-4e07-a85b-91e05058c307",
+  "name": "Patient_Name",
+  "auto": true,
+  "contexts": [
+    "user_name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user_name",
+      "affectedContexts": [
+        {
+          "name": "user_age",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "901b54b5-4bd5-49d1-b772-54783be5924f",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please Tell us your name....."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "hello $given-name, how old are you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

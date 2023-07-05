@@ -1,0 +1,63 @@
+{
+  "id": "7f14cc00-6445-4bd7-8aff-00536886dac8",
+  "name": "Patient_Age",
+  "auto": true,
+  "contexts": [
+    "user_age"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user_age",
+      "affectedContexts": [
+        {
+          "name": "user_gender",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "634c5070-1e83-43e0-854a-1c3926bcb619",
+          "required": true,
+          "dataType": "@sys.age",
+          "name": "age",
+          "value": "$age",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How old are you?"
+            },
+            {
+              "lang": "en",
+              "value": "What\u0027s your age?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "and Gender?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

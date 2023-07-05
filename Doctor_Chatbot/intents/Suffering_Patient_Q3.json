@@ -1,0 +1,61 @@
+{
+  "id": "1e164a41-0f2c-43f7-96bd-8d8d03ab5232",
+  "parentId": "760a9587-2c41-47aa-8ef7-ecd18140429d",
+  "rootParentId": "f5d18210-67d5-456c-b2e6-7738630018f4",
+  "name": "Suffering_Patient_Q3",
+  "auto": true,
+  "contexts": [
+    "Q2",
+    "Suffering_Patient_Q2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Suffering_Patient-custom.Suffering_Patient_symp_dur-custom.Suffering_Patient_Q2-custom",
+      "affectedContexts": [
+        {
+          "name": "Q3",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "Suffering_Patient_Q3-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "54909718-f5e0-4d52-902b-6af3bd4181ea",
+          "required": false,
+          "dataType": "@Confirmation",
+          "name": "Confirmation",
+          "value": "$Confirmation",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Did you have High Blood Pressure Problems Before?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

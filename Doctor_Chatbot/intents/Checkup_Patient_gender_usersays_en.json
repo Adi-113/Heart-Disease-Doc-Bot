@@ -1,0 +1,48 @@
+[
+  {
+    "id": "e80074fb-0242-4dd8-91d4-c17ab0d2dff1",
+    "data": [
+      {
+        "text": "i\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "male",
+        "alias": "Gender",
+        "meta": "@Gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f83fb535-d568-47de-b363-684f1c13341b",
+    "data": [
+      {
+        "text": "female",
+        "alias": "Gender",
+        "meta": "@Gender",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "27302fe2-cb5e-4c10-9dd3-5948ff802dc6",
+    "data": [
+      {
+        "text": "male",
+        "alias": "Gender",
+        "meta": "@Gender",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

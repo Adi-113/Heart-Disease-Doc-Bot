@@ -1,0 +1,42 @@
+[
+  {
+    "id": "b4ab2972-147d-43dc-a11a-a46cdc209cfe",
+    "data": [
+      {
+        "text": "not sure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ec5fea5f-4328-4641-a870-d422364f4802",
+    "data": [
+      {
+        "text": "no",
+        "alias": "Confirmation",
+        "meta": "@Confirmation",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f10e1830-6a01-4659-b4d2-1b30a3f767a2",
+    "data": [
+      {
+        "text": "yes",
+        "alias": "Confirmation",
+        "meta": "@Confirmation",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

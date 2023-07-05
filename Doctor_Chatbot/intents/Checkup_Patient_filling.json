@@ -1,0 +1,66 @@
+{
+  "id": "33338841-e703-4ac3-b879-e361635f62f9",
+  "parentId": "92e29223-9efc-4fb7-b415-0cbaaa5390e7",
+  "rootParentId": "f5d18210-67d5-456c-b2e6-7738630018f4",
+  "name": "Checkup_Patient_filling",
+  "auto": true,
+  "contexts": [
+    "Checkup_Patient_gender-followup",
+    "user_ok"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Checkup_Patient-custom.Checkup_Patient_gender-custom",
+      "affectedContexts": [
+        {
+          "name": "book_confirm",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "Checkup_Patient_filling-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bfb293d8-7359-4a20-a4c5-26a19a08f127",
+          "required": false,
+          "dataType": "@Confirmation",
+          "name": "Confirmation",
+          "value": "$Confirmation",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "1e3e363f-6388-4b6e-85cb-5f7031a73b8c",
+          "required": false,
+          "dataType": "@Confirmation",
+          "name": "Confirmation1",
+          "value": "$Confirmation1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

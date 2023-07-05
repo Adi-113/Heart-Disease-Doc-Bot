@@ -1,0 +1,61 @@
+{
+  "id": "bf44938b-7aa0-4bed-b6c3-38040e0059bf",
+  "name": "doctors_list",
+  "auto": true,
+  "contexts": [
+    "book_confirm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "doctor_selection",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "doctors_list-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f7e5622a-c0f4-4c6e-a7f6-64fb579093c5",
+          "required": false,
+          "dataType": "@Confirmation",
+          "name": "Confirmation",
+          "value": "$Confirmation",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "A Few Doctors are available. Which Doctor will you prefer?\n(1.) Dr. Sidhesh Talauliker\n(2.) Dr. Francisco Colaco\n(3.) Dr. Sudhir M. Shet\n(4.) Dr. Milind Desai\n(5.) Dr. Mahendra Kare",
+            "A Few Doctors are available. Which Doctor will you prefer?\n(1.) Dr. Shashank Prabhudesai\n(2.) Dr. Venkatesh V Molio\n(3.) Dr. Rajeshwar V Naik\n(4.) Dr. Chandrashekar Naik\n(5.) Dr. Mahesh Xambu Amoncar\n(6.) Dr. Archana Deshpande",
+            "A Few Doctors are available. Which Doctor will you prefer?\n(1.) Dr. Anand Shenoy\n(2.) Dr. Padmakumar\n(3.) Dr. Chakrapani\n(4.) Dr. S.S. Iyenger\n(5.) Dr. Subhash Chandra\n(6.) Dr. Lolayekar Divakar"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

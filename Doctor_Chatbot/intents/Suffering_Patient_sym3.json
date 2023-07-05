@@ -1,0 +1,70 @@
+{
+  "id": "aa6a2cbe-a6de-4174-92fe-7d80d54289c6",
+  "parentId": "84f5ac77-041f-4af2-8435-103adb2e6bda",
+  "rootParentId": "84f5ac77-041f-4af2-8435-103adb2e6bda",
+  "name": "Suffering_Patient_sym3",
+  "auto": true,
+  "contexts": [
+    "A2",
+    "Suffering_Patient_sym2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Suffering_Patient_sym2.Suffering_Patient_sym2-custom",
+      "affectedContexts": [
+        {
+          "name": "A3",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Suffering_Patient_sym3-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ba3519f8-53f8-4cce-802e-e70ff996f157",
+          "required": true,
+          "dataType": "@Symptoms",
+          "name": "Symptoms",
+          "value": "$Symptoms",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please type in proper symptom(s) separated by comma(,) as mentioned above. If you don\u0027t have any, please type \u0027none\u0027"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "What about these symptoms?\n(a.) Feeling your heart racing or skipping a beat.\n(b.) Chest pain spreading to the left arm.\n(c.) Chest pain spreading on physical effort.\n(d.) Joint/Abdominal pain.\n(e.) None",
+            "What about these symptoms?\n(a.) Chest Tightness.\n(b.) Unusually Tired.\n(c.) Anxiety .\n(d.) Chest pain spreading the Jaw.\n(e.) None"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

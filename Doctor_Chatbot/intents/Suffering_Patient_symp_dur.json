@@ -1,0 +1,67 @@
+{
+  "id": "7e558b8b-d71e-46b1-8513-78ca0a7a92e2",
+  "parentId": "02b4271f-818f-4b64-94bc-0b2c3e51d350",
+  "rootParentId": "f5d18210-67d5-456c-b2e6-7738630018f4",
+  "name": "Suffering_Patient_symp_dur",
+  "auto": true,
+  "contexts": [
+    "symp_duration",
+    "Suffering_Patient-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Suffering_Patient-custom",
+      "affectedContexts": [
+        {
+          "name": "Q1",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "Suffering_Patient_symp_dur-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "69baa978-b570-40d9-b721-c9da36bfa0df",
+          "required": true,
+          "dataType": "@sys.duration",
+          "name": "duration",
+          "value": "$duration",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How long you been suffering from this problem?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Are you ever diagnosed with Heart Disease before?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

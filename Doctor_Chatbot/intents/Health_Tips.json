@@ -1,0 +1,54 @@
+{
+  "id": "a200828a-e8a8-4eaa-9128-fdb88df89765",
+  "name": "Health_Tips",
+  "auto": true,
+  "contexts": [
+    "tip"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e14b746c-1028-44a1-a88e-0578c2972119",
+          "required": false,
+          "dataType": "@Confirmation",
+          "name": "confirmation",
+          "value": "$confirmation",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Control your blood pressure: High blood pressure is a major risk factor for heart disease. It is important to get your blood pressure checked regularly - at least once a year for most adults, and more often if you have high blood pressure. Take steps, including lifestyle changes, to prevent or control high blood pressure.\nSimilarly Manage diabetes (if applicable): Having diabetes doubles your risk of diabetic heart disease. That is because over time, high blood sugar from diabetes can damage your blood vessels and the nerves that control your heart and blood vessels. So, it is important to get tested for diabetes, and if you have it, to keep it under control.",
+            "Keep your cholesterol and triglyceride levels under control: High levels of cholesterol can clog your arteries and raise your risk of coronary artery disease and heart attack. Lifestyle changes and medicines (if needed) can lower your cholesterol. Triglycerides are another type of fat in the blood. High levels of triglycerides may also raise the risk of coronary artery disease, especially in women.",
+            "Stay at a healthy weight: Being overweight or having obesity can increase your risk for heart disease. This is mostly because they are linked to other heart disease risk factors, including high blood cholesterol and triglyceride levels, high blood pressure, and diabetes. Controlling your weight can lower these risks.",
+            "Eat a healthy diet: Try to limit saturated fats, foods high in sodium, and added sugars. Eat plenty of fresh fruit, vegetables, and whole grains. The DASH (Dietary Approaches to Stop Hypertension) diet is an example of an eating plan that can help you to lower your blood pressure and cholesterol, two things that can lower your risk of heart disease.\nLimit alcohol: Drinking too much alcohol can raise your blood pressure. It also adds extra calories, which may cause weight gain. Both of those raise your risk of heart disease. Men should have no more than two alcoholic drinks per day, and women should not have more than one.\nDon\u0027t smoke: Cigarette smoking raises your blood pressure and puts you at higher risk for heart attack and stroke. If you do not smoke, do not start. If you do smoke, quitting will lower your risk for heart disease. You can talk with your health care provider for help in finding the best way for you to quit.",
+            "Get regular exercise: Exercise has many benefits, including strengthening your heart and improving your circulation. It can also help you maintain a healthy weight and lower cholesterol and blood pressure. All of these can lower your risk of heart disease.",
+            "Manage stress: Stress is linked to heart disease in many ways. It can raise your blood pressure. Extreme stress can be a \"trigger\" for a heart attack. Also, some common ways of coping with stress, such as overeating, heavy drinking, and smoking, are bad for your heart. Some ways to help manage your stress include exercise, listening to music, focusing on something calm or peaceful, and meditating.",
+            "Make sure that you get enough sleep: If you don\u0027t get enough sleep, you raise your risk of high blood pressure, obesity, and diabetes. Those three things can raise your risk for heart disease. Most adults need 7 to 9 hours of sleep per night. Make sure that you have good sleep habits. If you have frequent sleep problems, contact your health care provider. One problem, sleep apnea, causes people to briefly stop breathing many times during sleep. This interferes with your ability to get a good rest and can raise your risk of heart disease. If you think you might have it, ask your doctor about having a sleep study. And if you do have sleep apnea, make sure that you get treatment for it."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

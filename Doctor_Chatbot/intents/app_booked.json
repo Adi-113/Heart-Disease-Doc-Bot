@@ -1,0 +1,80 @@
+{
+  "id": "1eeca9a0-0a49-498f-9b7e-ec9e08f3e79d",
+  "parentId": "86a61088-6d9b-457b-8b01-5454a3a95d51",
+  "rootParentId": "bf44938b-7aa0-4bed-b6c3-38040e0059bf",
+  "name": "app_booked",
+  "auto": true,
+  "contexts": [
+    "app_date_time",
+    "app_date_time-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "doctors_list.doctors_list-custom.app_date_time-custom",
+      "affectedContexts": [
+        {
+          "name": "tip",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3ea59067-457b-4c68-a5ac-e2e70e3926e1",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What date or which day?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "4303dee7-3727-4670-8c82-59dd8559892b",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell at what time you want to book appointment?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Confirmed! Booked Appointment with Dr. #app_date_time.person on $date at $time! Thank you for using doctor chatbot..... Take care bye! Do you want any tips on how to prevent Heart Disease?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

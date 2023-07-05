@@ -1,0 +1,111 @@
+{
+  "id": "82f35c5a-9bd2-4c25-8221-79b2d5c19a2c",
+  "parentId": "d9f58a27-cfb3-4b90-a6a4-db36433ef083",
+  "rootParentId": "84f5ac77-041f-4af2-8435-103adb2e6bda",
+  "name": "Suffering_Patient_sym_report_filling",
+  "auto": true,
+  "contexts": [
+    "user_info",
+    "Suffering_Patient_sym_report_yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Suffering_Patient_sym2.Suffering_Patient_sym2-custom.Suffering_Patient_sym3-custom.Suffering_Patient_sym_final-custom.Suffering_Patient_sym_report_yes-custom",
+      "affectedContexts": [
+        {
+          "name": "user_conf",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "Suffering_Patient_sym_report_filling-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ceb1910c-7d83-44e6-ac41-52e7ca3fcc34",
+          "required": true,
+          "dataType": "@Gender",
+          "name": "Gender",
+          "value": "$Gender",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s your Gender?"
+            },
+            {
+              "lang": "en",
+              "value": "Male or Female?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "40118ff5-690f-4b0a-976c-90e057476e97",
+          "required": true,
+          "dataType": "@sys.age",
+          "name": "age",
+          "value": "$age",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell how old you are?"
+            },
+            {
+              "lang": "en",
+              "value": "What\u0027s your age?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "021bab75-dc6d-49b3-96b8-0fbf2400b9b1",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "OK $given-name, Please fill and submit the report form on the right side...."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "83b2ca20-cc73-4b00-9d74-7a6e4d9f139f",
+    "data": [
+      {
+        "text": "check ",
+        "userDefined": false
+      },
+      {
+        "text": "report",
+        "alias": "Health",
+        "meta": "@Health",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8c2f636b-9d18-43e8-a8f1-eda27dce7141",
+    "data": [
+      {
+        "text": "i have heart ",
+        "userDefined": false
+      },
+      {
+        "text": "checkup",
+        "alias": "Health",
+        "meta": "@Health",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "report",
+        "alias": "Health",
+        "meta": "@Health",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "16056a83-fe3c-46d0-8b7a-13f7526bcae2",
+    "data": [
+      {
+        "text": "i wanted to check my ",
+        "userDefined": false
+      },
+      {
+        "text": "heart health",
+        "alias": "Health",
+        "meta": "@Health",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "46a91cf7-134c-448d-9d97-769fbd7124a8",
+    "data": [
+      {
+        "text": "checkup",
+        "alias": "Health",
+        "meta": "@Health",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "591c389f-6ffb-49a2-aa42-d2a8d13a5816",
+    "data": [
+      {
+        "text": "wanted to check whether i have ",
+        "userDefined": false
+      },
+      {
+        "text": "heart disease",
+        "alias": "Health",
+        "meta": "@Health",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "820f342a-2d47-41c3-a01a-1951fc1e61a9",
+    "data": [
+      {
+        "text": "health ",
+        "userDefined": false
+      },
+      {
+        "text": "checkup",
+        "alias": "Health",
+        "meta": "@Health",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "98239518-324e-4d6e-9a30-c5ff4ce51eb7",
+    "data": [
+      {
+        "text": "heart disease",
+        "alias": "Health",
+        "meta": "@Health",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

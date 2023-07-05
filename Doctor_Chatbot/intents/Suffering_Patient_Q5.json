@@ -1,0 +1,61 @@
+{
+  "id": "10faa5ae-ea47-4081-a0e5-8dc9c5f25bca",
+  "parentId": "3c2b6c34-25d4-4452-bf9f-9c7541c49bab",
+  "rootParentId": "f5d18210-67d5-456c-b2e6-7738630018f4",
+  "name": "Suffering_Patient_Q5",
+  "auto": true,
+  "contexts": [
+    "Q4",
+    "Suffering_Patient_Q4-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Suffering_Patient-custom.Suffering_Patient_symp_dur-custom.Suffering_Patient_Q2-custom.Suffering_Patient_Q3-custom.Suffering_Patient_Q4-custom",
+      "affectedContexts": [
+        {
+          "name": "Q5",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "Suffering_Patient_Q5-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "85db08fc-1de2-4d15-8498-fb4b7e4e4f7c",
+          "required": false,
+          "dataType": "@Confirmation",
+          "name": "Confirmation",
+          "value": "$Confirmation",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Do you smoke or ever smoked?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

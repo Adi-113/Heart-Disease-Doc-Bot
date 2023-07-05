@@ -1,0 +1,61 @@
+{
+  "id": "b2a23098-63e8-4ff4-8b4a-71b3e81d4cd2",
+  "parentId": "82f35c5a-9bd2-4c25-8221-79b2d5c19a2c",
+  "rootParentId": "84f5ac77-041f-4af2-8435-103adb2e6bda",
+  "name": "Suffering_Patient_sym_report_results",
+  "auto": true,
+  "contexts": [
+    "user_conf",
+    "Suffering_Patient_sym_report_filling-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Suffering_Patient_sym2.Suffering_Patient_sym2-custom.Suffering_Patient_sym3-custom.Suffering_Patient_sym_final-custom.Suffering_Patient_sym_report_yes-custom.Suffering_Patient_sym_report_filling-custom",
+      "affectedContexts": [
+        {
+          "name": "book_confirm",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0a265fed-658a-4226-8bf4-b1953c5fe171",
+          "required": false,
+          "dataType": "@Confirmation",
+          "name": "Confirmation",
+          "value": "$Confirmation",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "8ef6c8cd-2acd-4c8f-aebe-9d37a52345ec",
+          "required": false,
+          "dataType": "@Confirmation",
+          "name": "Confirmation1",
+          "value": "$Confirmation1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

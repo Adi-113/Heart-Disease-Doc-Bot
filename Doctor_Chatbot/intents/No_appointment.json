@@ -1,0 +1,39 @@
+{
+  "id": "e04844f9-d8d0-4706-aca7-85b08dacea19",
+  "name": "No_appointment",
+  "auto": true,
+  "contexts": [
+    "book_confirm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "tip",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "OK, thank you for using doctor chatbot, take care, bye..... Do you want any tips on how to prevent Heart Disease?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

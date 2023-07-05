@@ -1,0 +1,67 @@
+{
+  "id": "86a61088-6d9b-457b-8b01-5454a3a95d51",
+  "parentId": "bf44938b-7aa0-4bed-b6c3-38040e0059bf",
+  "rootParentId": "bf44938b-7aa0-4bed-b6c3-38040e0059bf",
+  "name": "app_date_time",
+  "auto": true,
+  "contexts": [
+    "doctor_selection",
+    "doctors_list-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "doctors_list.doctors_list-custom",
+      "affectedContexts": [
+        {
+          "name": "app_date_time",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "app_date_time-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e317f5c1-ceb5-4a51-b954-542f8d961efa",
+          "required": true,
+          "dataType": "@sys.person",
+          "name": "person",
+          "value": "$person",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please Enter Name of the Doctor Properly....."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Please tell date and time for appointment"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

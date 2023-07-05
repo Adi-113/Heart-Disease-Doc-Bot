@@ -1,0 +1,136 @@
+[
+  {
+    "id": "defba96e-4e94-47da-b501-3ec9189afe29",
+    "data": [
+      {
+        "text": "Chest pain",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": false
+      },
+      {
+        "text": " worse on movement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "50c57e89-78a0-452f-9bba-a6400cc007dc",
+    "data": [
+      {
+        "text": "Chest pain",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": false
+      },
+      {
+        "text": " caused by pressing the chest",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5b6e0ebb-6986-44b3-9092-3282783b8824",
+    "data": [
+      {
+        "text": "Burning pain",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": false
+      },
+      {
+        "text": " in chest/upper abdomen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0f2ed030-eb52-4c2d-afad-12b9b59c2924",
+    "data": [
+      {
+        "text": "Chest Pain",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": false
+      },
+      {
+        "text": " worse on breathing in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d8f00ad1-7b24-4232-a9d0-13412efa88e0",
+    "data": [
+      {
+        "text": "None",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "67f088f4-8f47-406c-9aef-fcbef09ec93a",
+    "data": [
+      {
+        "text": "Chest Pain",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": false
+      },
+      {
+        "text": " worse on breathing in, ",
+        "userDefined": false
+      },
+      {
+        "text": "Burning pain",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": false
+      },
+      {
+        "text": " in chest/upper abdomen, ",
+        "userDefined": false
+      },
+      {
+        "text": "Chest pain",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": false
+      },
+      {
+        "text": " caused by pressing the chest, ",
+        "userDefined": false
+      },
+      {
+        "text": "Chest pain",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": false
+      },
+      {
+        "text": " worse on movement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

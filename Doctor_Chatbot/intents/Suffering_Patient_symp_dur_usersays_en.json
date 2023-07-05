@@ -1,0 +1,72 @@
+[
+  {
+    "id": "6203658d-2b93-4c7e-8204-d5e495bc9a73",
+    "data": [
+      {
+        "text": "one month",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e49e93c2-6d51-4a00-af1b-4a1d3be991ac",
+    "data": [
+      {
+        "text": "one week",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b7dfb8a3-86a3-4867-9277-db98b7318cbc",
+    "data": [
+      {
+        "text": "one day",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "12847061-d249-41de-9e40-d082a0953e45",
+    "data": [
+      {
+        "text": "one hour",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e8ab6c94-2563-45fb-bfe1-542048ab5000",
+    "data": [
+      {
+        "text": "half an hour",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "id": "02b4271f-818f-4b64-94bc-0b2c3e51d350",
+  "parentId": "f5d18210-67d5-456c-b2e6-7738630018f4",
+  "rootParentId": "f5d18210-67d5-456c-b2e6-7738630018f4",
+  "name": "Suffering_Patient",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "symp_duration",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Suffering_Patient-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "31386395-b1e8-4469-b44e-ec6ca1ba402c",
+          "required": true,
+          "dataType": "@Symptoms",
+          "name": "Symptoms",
+          "value": "$Symptoms",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "For how long have you been suffering from it?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

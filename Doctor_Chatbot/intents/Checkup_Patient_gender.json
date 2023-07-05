@@ -1,0 +1,63 @@
+{
+  "id": "92e29223-9efc-4fb7-b415-0cbaaa5390e7",
+  "parentId": "11cb8e73-195f-4143-8b83-be2b1386e482",
+  "rootParentId": "f5d18210-67d5-456c-b2e6-7738630018f4",
+  "name": "Checkup_Patient_gender",
+  "auto": true,
+  "contexts": [
+    "user_gender"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.Checkup_Patient-custom",
+      "affectedContexts": [
+        {
+          "name": "user_ok",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "Checkup_Patient_gender-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6f5b1b55-4178-432f-90bd-4ca4c2dd88a6",
+          "required": true,
+          "dataType": "@Gender",
+          "name": "Gender",
+          "value": "$Gender",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s your Gender?"
+            },
+            {
+              "lang": "en",
+              "value": "Male or Female?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

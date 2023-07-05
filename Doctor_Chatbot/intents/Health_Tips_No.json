@@ -1,0 +1,46 @@
+{
+  "id": "4fcf4e5a-d996-455e-9049-555b71f3a316",
+  "name": "Health_Tips_No",
+  "auto": true,
+  "contexts": [
+    "tip"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c10d7bb4-9333-4727-bdab-d09626e5cb1a",
+          "required": false,
+          "dataType": "@Confirmation",
+          "name": "confirmation",
+          "value": "$confirmation",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "OK, No Problem"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

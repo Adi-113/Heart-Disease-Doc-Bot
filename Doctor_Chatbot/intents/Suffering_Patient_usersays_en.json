@@ -1,0 +1,120 @@
+[
+  {
+    "id": "fdf39a67-4a4d-4560-85b0-008506e69cb3",
+    "data": [
+      {
+        "text": "sleeping",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": true
+      },
+      {
+        "text": " problems",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a54cb0f1-1514-4dd8-8659-982a4d446668",
+    "data": [
+      {
+        "text": "i don\u0027t get enough ",
+        "userDefined": false
+      },
+      {
+        "text": "sleep",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a0f0f2b4-aa12-42de-92fb-eefedaa9ada6",
+    "data": [
+      {
+        "text": "low blood pressure",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8dbecd26-8d04-4d71-8f76-73c75e98c75f",
+    "data": [
+      {
+        "text": "breathing problems",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5013758d-a2ec-4dc8-9522-6bf5211b5da8",
+    "data": [
+      {
+        "text": "i feel ",
+        "userDefined": false
+      },
+      {
+        "text": "breathlessness",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "861d8b82-a5b2-4f90-a812-49be88116fa1",
+    "data": [
+      {
+        "text": "i have ",
+        "userDefined": false
+      },
+      {
+        "text": "high blood pressure",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6819552f-ef87-4eef-81ff-12a993268ef1",
+    "data": [
+      {
+        "text": "i have ",
+        "userDefined": false
+      },
+      {
+        "text": "chest pain",
+        "alias": "Symptoms",
+        "meta": "@Symptoms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

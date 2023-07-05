@@ -1,0 +1,74 @@
+[
+  {
+    "id": "d54e76f0-15ab-4eeb-b730-e6ce2c5b8477",
+    "data": [
+      {
+        "text": "Sure",
+        "alias": "confirmation",
+        "meta": "@Confirmation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5b7e592e-ecf3-48a6-8e31-1208e631c237",
+    "data": [
+      {
+        "text": "yes",
+        "alias": "confirmation",
+        "meta": "@Confirmation",
+        "userDefined": false
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a86c49af-6f9e-422c-9f45-bec597cba35b",
+    "data": [
+      {
+        "text": "great",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "10e15951-02c8-4f0e-afb1-40c590871bd4",
+    "data": [
+      {
+        "text": "OK",
+        "alias": "confirmation",
+        "meta": "@Confirmation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f6db2160-37e9-4641-9aae-cedb0d78378c",
+    "data": [
+      {
+        "text": "Yes",
+        "alias": "confirmation",
+        "meta": "@Confirmation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

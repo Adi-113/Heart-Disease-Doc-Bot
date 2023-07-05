@@ -1,0 +1,44 @@
+[
+  {
+    "value": "OK",
+    "synonyms": [
+      "OK"
+    ]
+  },
+  {
+    "value": "Submit",
+    "synonyms": [
+      "Submit"
+    ]
+  },
+  {
+    "value": "Submitted",
+    "synonyms": [
+      "Submitted"
+    ]
+  },
+  {
+    "value": "Done",
+    "synonyms": [
+      "Done"
+    ]
+  },
+  {
+    "value": "Sent",
+    "synonyms": [
+      "Sent"
+    ]
+  },
+  {
+    "value": "Yes",
+    "synonyms": [
+      "Yes"
+    ]
+  },
+  {
+    "value": "Sure",
+    "synonyms": [
+      "Sure"
+    ]
+  }
+]
